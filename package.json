@@ -1,0 +1,25 @@
+{
+  "name": "comp3104",
+  "version": "1.0.0",
+  "description": "Divine Iyalla Falola",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divine2f/COMP3104.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "devops",
+    "express"
+  ],
+  "author": "Divine Iyalla Falola: 101394076",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divine2f/COMP3104/issues"
+  },
+  "homepage": "https://github.com/Divine2f/COMP3104#readme"
+}
