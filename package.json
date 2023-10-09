@@ -1,25 +1,47 @@
 {
   "name": "comp3104",
   "version": "1.0.0",
-  "description": "Divine Iyalla Falola",
+  "description": "Divine - Iyalla - Falola",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "pre-deploy": "yarn-run-build",
+    "deploy": "gh-pages-d-build",
     "test": "echo \"Error: no test specified\"",
-    "start":"node index.js"
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Divine2f/COMP3104.git"
+    "url": "git+https://github.com/Divine2f/comp3104.git"
   },
   "keywords": [
-    "nodeJS",
-    "devops",
-    "express"
+    "VCS, Github, CI Pipeline, Travis"
   ],
-  "author": "Divine Iyalla Falola: 101394076",
+  "author": "Divine Iyalla Falola",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Divine2f/COMP3104/issues"
   },
-  "homepage": "https://github.com/Divine2f/COMP3104#readme"
+  "homepage": "https://github.com/Divine2f/COMP3104#readme",
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "travis": "^0.1.1",
+    "yarn": "1.13.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "web-vitals": "^3.5.0"
+  }
 }
